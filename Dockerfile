@@ -1,5 +1,5 @@
 FROM jjmerelo/perl6-doccer:latest
-LABEL version="1.0" maintainer="JJ Merelo <jjmerelo@GMail.com>"
+LABEL version="1.1" maintainer="JJ Merelo <jjmerelo@GMail.com>"
 
 RUN apk update && apk upgrade && apk add git openssh-client python jq bash
 
